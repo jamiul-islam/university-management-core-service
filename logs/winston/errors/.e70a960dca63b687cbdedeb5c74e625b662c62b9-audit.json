@@ -14,6 +14,11 @@
             "date": 1692352924894,
             "name": "/Users/tomcat1112k/Desktop/Next Level/06. Postgres & Prisma/university-management-core-service/logs/winston/errors/ucs-2023-18-08-16-error.log",
             "hash": "12c3abcac4fac4ea9fdf18791da89d58177b31bdc58a0f71137837fe521f2b53"
+        },
+        {
+            "date": 1692357348078,
+            "name": "/Users/tomcat1112k/Desktop/Next Level/06. Postgres & Prisma/university-management-core-service/logs/winston/errors/ucs-2023-18-08-17-error.log",
+            "hash": "3872d369a63cbca0400b3881003110994d39d99147d1d5f1fbd3be16a3c4bd0b"
         }
     ],
     "hashType": "sha256"

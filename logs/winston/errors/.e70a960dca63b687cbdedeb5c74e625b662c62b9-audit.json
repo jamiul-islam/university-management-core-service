@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/Users/tomcat1112k/Desktop/Next Level/06. Postgres & Prisma/university-management-core-service/logs/winston/errors/.e70a960dca63b687cbdedeb5c74e625b662c62b9-audit.json",
+    "files": [
+        {
+            "date": 1692352688984,
+            "name": "/Users/tomcat1112k/Desktop/Next Level/06. Postgres & Prisma/university-management-core-service/logs/winston/errors/ucs-2023-18-08-15-error.log",
+            "hash": "d630a4b79562834ef5e9aeb6111198a641b2917ee3ffd55b9c3e18d2c84e77c7"
+        },
+        {
+            "date": 1692352924894,
+            "name": "/Users/tomcat1112k/Desktop/Next Level/06. Postgres & Prisma/university-management-core-service/logs/winston/errors/ucs-2023-18-08-16-error.log",
+            "hash": "12c3abcac4fac4ea9fdf18791da89d58177b31bdc58a0f71137837fe521f2b53"
+        }
+    ],
+    "hashType": "sha256"
+}

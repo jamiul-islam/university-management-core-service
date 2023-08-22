@@ -1,30 +1,45 @@
 {
-  "keep": {
-    "days": true,
-    "amount": 14
-  },
-  "auditLog": "/Users/tomcat1112k/Desktop/Next Level/06. Postgres & Prisma/university-management-core-service/logs/winston/errors/.e70a960dca63b687cbdedeb5c74e625b662c62b9-audit.json",
-  "files": [
-    {
-      "date": 1692352688984,
-      "name": "/Users/tomcat1112k/Desktop/Next Level/06. Postgres & Prisma/university-management-core-service/logs/winston/errors/ucs-2023-18-08-15-error.log",
-      "hash": "d630a4b79562834ef5e9aeb6111198a641b2917ee3ffd55b9c3e18d2c84e77c7"
+    "keep": {
+        "days": true,
+        "amount": 14
     },
-    {
-      "date": 1692352924894,
-      "name": "/Users/tomcat1112k/Desktop/Next Level/06. Postgres & Prisma/university-management-core-service/logs/winston/errors/ucs-2023-18-08-16-error.log",
-      "hash": "12c3abcac4fac4ea9fdf18791da89d58177b31bdc58a0f71137837fe521f2b53"
-    },
-    {
-      "date": 1692357348078,
-      "name": "/Users/tomcat1112k/Desktop/Next Level/06. Postgres & Prisma/university-management-core-service/logs/winston/errors/ucs-2023-18-08-17-error.log",
-      "hash": "3872d369a63cbca0400b3881003110994d39d99147d1d5f1fbd3be16a3c4bd0b"
-    },
-    {
-      "date": 1692360501900,
-      "name": "/Users/tomcat1112k/Desktop/Next Level/06. Postgres & Prisma/university-management-core-service/logs/winston/errors/ucs-2023-18-08-18-error.log",
-      "hash": "84c0e2e7bb79719a02c444e14548b52dbd1c1acade1b66b7180c7b67fcd48495"
-    }
-  ],
-  "hashType": "sha256"
+    "auditLog": "/Users/tomcat1112k/Desktop/Next Level/06. Postgres & Prisma/university-management-core-service/logs/winston/errors/.e70a960dca63b687cbdedeb5c74e625b662c62b9-audit.json",
+    "files": [
+        {
+            "date": 1692352688984,
+            "name": "/Users/tomcat1112k/Desktop/Next Level/06. Postgres & Prisma/university-management-core-service/logs/winston/errors/ucs-2023-18-08-15-error.log",
+            "hash": "d630a4b79562834ef5e9aeb6111198a641b2917ee3ffd55b9c3e18d2c84e77c7"
+        },
+        {
+            "date": 1692352924894,
+            "name": "/Users/tomcat1112k/Desktop/Next Level/06. Postgres & Prisma/university-management-core-service/logs/winston/errors/ucs-2023-18-08-16-error.log",
+            "hash": "12c3abcac4fac4ea9fdf18791da89d58177b31bdc58a0f71137837fe521f2b53"
+        },
+        {
+            "date": 1692357348078,
+            "name": "/Users/tomcat1112k/Desktop/Next Level/06. Postgres & Prisma/university-management-core-service/logs/winston/errors/ucs-2023-18-08-17-error.log",
+            "hash": "3872d369a63cbca0400b3881003110994d39d99147d1d5f1fbd3be16a3c4bd0b"
+        },
+        {
+            "date": 1692360501900,
+            "name": "/Users/tomcat1112k/Desktop/Next Level/06. Postgres & Prisma/university-management-core-service/logs/winston/errors/ucs-2023-18-08-18-error.log",
+            "hash": "84c0e2e7bb79719a02c444e14548b52dbd1c1acade1b66b7180c7b67fcd48495"
+        },
+        {
+            "date": 1692612031304,
+            "name": "/Users/tomcat1112k/Desktop/Next Level/06. Postgres & Prisma/university-management-core-service/logs/winston/errors/ucs-2023-21-08-16-error.log",
+            "hash": "204209073126042401e78b9b269cdba1f980d43fcae97a31b29019a665f17a72"
+        },
+        {
+            "date": 1692688049914,
+            "name": "/Users/tomcat1112k/Desktop/Next Level/06. Postgres & Prisma/university-management-core-service/logs/winston/errors/ucs-2023-22-08-13-error.log",
+            "hash": "0a12085a4be88d6324fd4f50806e2b196308b95e2a36db9fddfc29d37a9ff1b0"
+        },
+        {
+            "date": 1692714319663,
+            "name": "/Users/tomcat1112k/Desktop/Next Level/06. Postgres & Prisma/university-management-core-service/logs/winston/errors/ucs-2023-22-08-20-error.log",
+            "hash": "96d487395d32c3cf7b16a452af4094e9d41590c420a3acbb6b50f64beabbe14e"
+        }
+    ],
+    "hashType": "sha256"
 }

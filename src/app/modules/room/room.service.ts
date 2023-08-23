@@ -2,13 +2,13 @@ import { Prisma, Room } from '@prisma/client';
 import { paginationHelpers } from '../../../helpers/paginationHelper';
 import { IGenericResponse } from '../../../interfaces/common';
 import { IPaginationOptions } from '../../../interfaces/pagination';
-import prisma from '../../../shared/prisma';
 import {
     roomRelationalFields,
     roomRelationalFieldsMapper,
     roomSearchableFields
 } from './room.constants';
 import { IRoomFilterRequest } from './room.interface';
+import prisma from '../../../prisma';
 
 
 const insertIntoDB = async (data: Room): Promise<Room> => {

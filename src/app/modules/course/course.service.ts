@@ -268,7 +268,7 @@ const deleteByIdFromDB = async (id: string): Promise<Course> => {
   return result;
 };
 
-const assignFaculies = async (
+const assignFaculties = async (
   id: string,
   payload: string[]
 ): Promise<CourseFaculty[]> => {
@@ -322,6 +322,6 @@ export const CourseService = {
   getByIdFromDB,
   deleteByIdFromDB,
   updateOneInDB,
-  assignFaculies,
+  assignFaculties,
   removeFaculties,
 };

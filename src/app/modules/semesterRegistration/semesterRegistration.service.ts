@@ -36,7 +36,7 @@ const insertIntoDB = async (
   if (isAnySemesterRegUpcomingOrOngoing) {
     throw new ApiError(
       httpStatus.BAD_REQUEST,
-      `Thers is already an ${isAnySemesterRegUpcomingOrOngoing.status} registration.`
+      `There is already an ${isAnySemesterRegUpcomingOrOngoing.status} registration.`
     );
   }
 
@@ -132,7 +132,7 @@ const getByIdFromDB = async (
   return result;
 };
 
-// UPCOMING > ONGOING  > ENDED
+// semester sequence --> UPCOMING > ONGOING  > ENDED
 
 const updateOneInDB = async (
   id: string,

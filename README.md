@@ -2,7 +2,7 @@
 
 ## ER Diagram
 
-![ER Diagram](ER-diagram-38.png)
+![ER Diagram](ER-diragram-39.png)
 
 ## Query Diagram
 

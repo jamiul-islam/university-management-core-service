@@ -40,7 +40,7 @@ const getGradeFromMarks = (marks: number) => {
   return result;
 };
 
-const calcCGPAndGrade = (
+const calcCGPAandGrade = (
   payload: (StudentEnrolledCourse & { course: Course })[]
 ) => {
   if (payload.length === 0) {
@@ -68,5 +68,5 @@ const calcCGPAndGrade = (
 
 export const StudentEnrolledCourseMarkUtils = {
   getGradeFromMarks,
-  calcCGPAndGrade,
+  calcCGPAandGrade,
 };

@@ -3,7 +3,7 @@ import { ENUM_USER_ROLE } from '../../../enums/user';
 import auth from '../../middlewares/auth';
 import validateRequest from '../../middlewares/validateRequest';
 import { academicSemesterController } from './academicSemester.controller';
-import { academicSemesterValidation } from './academicSemester.validation';
+import { AcademicSemesterValidation } from './academicSemester.validation';
 
 const router = express.Router();
 
@@ -11,13 +11,14 @@ router.get('/', academicSemesterController.getAllFromDB);
 router.get('/:id', academicSemesterController.getDataById);
 router.post(
   '/',
-  validateRequest(academicSemesterValidation.create),
+  validateRequest(AcademicSemesterValidation.create),
+  auth(ENUM_USER_ROLE.ADMIN, ENUM_USER_ROLE.SUPER_ADMIN),
   academicSemesterController.insertIntoDB
 );
 
 router.patch(
   '/:id',
-  validateRequest(academicSemesterValidation.update),
+  validateRequest(AcademicSemesterValidation.update),
   auth(ENUM_USER_ROLE.SUPER_ADMIN, ENUM_USER_ROLE.ADMIN),
   academicSemesterController.updateOneInDB
 );
@@ -28,4 +29,4 @@ router.delete(
   academicSemesterController.deleteByIdFromDB
 );
 
-export const academicSemesterRoutes = router;
+export const AcademicSemesterRoutes = router;
